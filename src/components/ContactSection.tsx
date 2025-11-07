@@ -6,19 +6,19 @@ const contactDetails = [
   {
     icon: Mail,
     label: "Email",
-    value: "[your.email@example.com]",
-    link: "mailto:[your.email@example.com]",
+    value: "stuartmckenziegraham@gmail.com",
+    link: "mailto:[stuartmckenziegraham@gmail.com]",
   },
   {
     icon: Phone,
     label: "Phone",
-    value: "[(XXX) XXX-XXXX]",
+    value: "07590 415 148",
     link: "tel:[+1XXXXXXXXXX]",
   },
   {
     icon: MapPin,
     label: "Location",
-    value: "[City, State/Region]",
+    value: "Hove",
     link: null,
   },
   {
@@ -34,19 +34,13 @@ export const ContactSection = () => {
     <section id="contact" className="py-20 bg-gradient-to-b from-background to-primary/5">
       <div className="container mx-auto px-4">
         <div className="max-w-4xl mx-auto">
-          <h2 className="text-4xl md:text-5xl font-bold text-center mb-4 text-foreground">
+          <h2 className="text-4xl md:text-5xl font-bold text-center mb-12 text-foreground">
             Get In Touch
           </h2>
-          <p className="text-xl text-center text-muted-foreground mb-12">
-            Schedule a consultation to discuss your academic goals and learning needs
-          </p>
           
           <Card className="shadow-[var(--shadow-medium)] border-2 border-primary/10">
             <CardHeader className="text-center pb-8">
               <CardTitle className="text-2xl">Contact Information</CardTitle>
-              <CardDescription className="text-base">
-                [Add your preferred method of contact and typical response time]
-              </CardDescription>
             </CardHeader>
             <CardContent>
               <div className="grid sm:grid-cols-2 gap-6 mb-8">
@@ -73,19 +67,6 @@ export const ContactSection = () => {
                     </div>
                   </div>
                 ))}
-              </div>
-              
-              <div className="text-center pt-6 border-t-2 border-border">
-                <p className="text-muted-foreground mb-6">
-                  [Add information about session formats (in-person/online), rates, or scheduling policies]
-                </p>
-                <Button 
-                  size="lg" 
-                  className="bg-primary text-primary-foreground hover:bg-primary-dark"
-                  onClick={() => window.location.href = 'mailto:[your.email@example.com]'}
-                >
-                  Schedule a Session
-                </Button>
               </div>
             </CardContent>
           </Card>
