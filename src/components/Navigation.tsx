@@ -4,7 +4,7 @@ import { Menu, X } from "lucide-react";
 
 const navItems = [
   { label: "About", href: "#about" },
-  { label: "Teaching Style", href: "#teaching-style" },
+  { label: "Teaching", href: "#teaching-style" },
   { label: "Qualifications", href: "#qualifications" },
   { label: "Testimonials", href: "#testimonials" },
 ];
@@ -39,9 +39,9 @@ export const Navigation = () => {
         <div className="flex items-center justify-between h-16 md:h-20">
           <button
             onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
-            className="text-2xl font-bold text-primary hover:text-primary-light transition-colors"
+            className="text-2xl font-bold text-primary hover:text-primary-light transition-colors text-white"
           >
-            Chemistry Tutor
+            {/* NO HOME TEXT HERE ANYMORE */}
           </button>
 
           {/* Desktop Navigation */}
@@ -50,7 +50,7 @@ export const Navigation = () => {
               <button
                 key={item.href}
                 onClick={() => scrollToSection(item.href)}
-                className="text-foreground hover:text-primary transition-colors font-medium"
+                className="text-foreground hover:text-primary transition-colors font-medium text-white"
               >
                 {item.label}
               </button>
