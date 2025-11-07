@@ -3,38 +3,36 @@ import { GraduationCap, Award, BookCheck, Trophy } from "lucide-react";
 const qualifications = [
   {
     icon: GraduationCap,
-    title: "Education",
+    title: "Classroom Teaching",
     items: [
-      "[Degree, Institution, Year]",
-      "[Additional degree or certification]",
-      "[Any specialized chemistry qualifications]",
+      "Over a decade of teaching experience at Hurstpierpoint College, including two years as Head of Chemistry.",
+      "Redesigning the Chemistry curriculum, improving the school's value add to the top 3% of the country."
+    ],
+  },
+  {
+    icon: BookCheck,
+    title: "Private Tutoring",
+    items: [
+      "Eight years of private tutoring experience across GCSE and A Level.",
+      "Experience in a wide range of exam boards and syllabuses.",
     ],
   },
   {
     icon: Award,
     title: "Certifications",
     items: [
-      "[Teaching certification or license]",
-      "[Subject-specific certifications]",
-      "[Professional development courses]",
-    ],
-  },
-  {
-    icon: BookCheck,
-    title: "Experience",
-    items: [
-      "[Years of tutoring experience]",
-      "[Types of students taught (age groups, levels)]",
-      "[Success rate or notable achievements]",
+      "PGCE Degree, Sussex University",
+      "MSc Artificial Intelligence, Sussex University",
+      "BSc Economics, Bristol University"
     ],
   },
   {
     icon: Trophy,
-    title: "Specializations",
+    title: "TutorMyself",
     items: [
-      "[Specific chemistry topics or exam prep]",
-      "[Advanced placement or honors courses]",
-      "[Laboratory techniques or practical skills]",
+      "Creator of TutorMyself Chemistry, a website to help students learn for their Chemistry GCSE",
+      "Attracts over 1000 users a month",
+      "Fully equiped with quizzes, flashcards, and past paper questions",
     ],
   },
 ];
@@ -45,7 +43,7 @@ export const QualificationsSection = () => {
       <div className="container mx-auto px-4">
         <div className="max-w-6xl mx-auto">
           <h2 className="text-4xl md:text-5xl font-bold text-center mb-12 text-foreground">
-            Qualifications & Experience
+            Experience
           </h2>
           
           <div className="grid md:grid-cols-2 gap-8">
