@@ -10,7 +10,7 @@ export const HeroSection = () => {
 
   return (
     <section 
-      className="relative min-h-screen flex items-center justify-center bg-cover bg-center bg-no-repeat"
+      className="relative py-24 flex items-center justify-center bg-cover bg-center bg-no-repeat"
       style={{ backgroundImage: `linear-gradient(rgba(0, 40, 80, 0.75), rgba(0, 60, 100, 0.85)), url(${heroImage})` }}
     >
       <div className="container mx-auto px-4 py-20 text-center relative z-10">
