@@ -1,4 +1,4 @@
-import tutorPlaceholder from "@/assets/tutor-professional-placeholder.jpg";
+import headShot from "@/assets/headShot.jpeg";
 
 export const AboutSection = () => {
   return (
@@ -14,7 +14,7 @@ export const AboutSection = () => {
               <div className="relative">
                 <div className="w-64 h-64 md:w-80 md:h-80 rounded-full overflow-hidden shadow-[var(--shadow-medium)] border-4 border-primary/20">
                   <img 
-                    src={tutorPlaceholder} 
+                    src={headShot} 
                     alt="Your Tutor" 
                     className="w-full h-full object-cover"
                   />

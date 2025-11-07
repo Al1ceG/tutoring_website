@@ -7,7 +7,6 @@ const navItems = [
   { label: "Teaching Style", href: "#teaching-style" },
   { label: "Qualifications", href: "#qualifications" },
   { label: "Testimonials", href: "#testimonials" },
-  { label: "Contact", href: "#contact" },
 ];
 
 export const Navigation = () => {
@@ -60,7 +59,7 @@ export const Navigation = () => {
               variant="default"
               onClick={() => scrollToSection("#contact")}
             >
-              Get Started
+              Contact
             </Button>
           </div>
 
