@@ -1,6 +1,6 @@
 import { GraduationCap, Award, BookCheck, Trophy } from "lucide-react";
 
-const qualifications = [
+const experience = [
   {
     icon: GraduationCap,
     title: "Classroom Teaching",
@@ -15,31 +15,32 @@ const qualifications = [
     items: [
       "Eight years of private tutoring experience across GCSE and A Level.",
       "Experience in a wide range of exam boards and syllabuses.",
+      "Both one-to-one and group tutoring"
     ],
   },
-  {
-    icon: Award,
-    title: "Certifications",
-    items: [
-      "PGCE Degree, Sussex University",
-      "MSc Artificial Intelligence, Sussex University",
-      "BSc Economics, Bristol University"
-    ],
-  },
-  {
-    icon: Trophy,
-    title: "TutorMyself",
-    items: [
-      "Creator of TutorMyself Chemistry, a website to help students learn for their Chemistry GCSE",
-      "Attracts over 1000 users a month",
-      "Fully equiped with quizzes, flashcards, and past paper questions",
-    ],
-  },
+  // {
+  //   icon: Award,
+  //   title: "Certifications",
+  //   items: [
+  //     "PGCE Degree, Sussex University",
+  //     "MSc Artificial Intelligence, Sussex University",
+  //     "BSc Economics, Bristol University"
+  //   ],
+  // },
+  // {
+  //   icon: Trophy,
+  //   title: "TutorMyself",
+  //   items: [
+  //     "Creator of TutorMyself Chemistry, a website to help students learn for their Chemistry GCSE",
+  //     "Attracts over 1000 users a month",
+  //     "Fully equiped with quizzes, flashcards, and past paper questions",
+  //   ],
+  // },
 ];
 
-export const QualificationsSection = () => {
+export const ExperienceSection = () => {
   return (
-    <section id="qualifications" className="py-20 bg-gradient-to-b from-background to-secondary/30">
+    <section id="experience" className="py-20 bg-gradient-to-b from-background to-secondary/30">
       <div className="container mx-auto px-4">
         <div className="max-w-6xl mx-auto">
           <h2 className="text-4xl md:text-5xl font-bold text-center mb-12 text-foreground">
@@ -47,7 +48,7 @@ export const QualificationsSection = () => {
           </h2>
           
           <div className="grid md:grid-cols-2 gap-8">
-            {qualifications.map((section, index) => (
+            {experience.map((section, index) => (
               <div 
                 key={index}
                 className="bg-card rounded-xl p-8 shadow-[var(--shadow-soft)] hover:shadow-[var(--shadow-medium)] transition-all duration-300 border-2 border-transparent hover:border-primary/30"

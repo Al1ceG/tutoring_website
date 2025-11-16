@@ -24,8 +24,9 @@ export const AboutSection = () => {
             
             <div className="space-y-6">
               <div className="prose prose-lg max-w-none">
-                <p className="text-lg text-muted-foreground leading-relaxed">
-                A sumary of his tutoring here
+                <p className="text-lg text-muted-foreground leading-relaxed text-align-center">
+                An experienced Chemistry tutor focused on helping students to achieve their best potential, building confidence and understanding. 
+                I care deeply about each pupil as an individual, crafting a personalised learning plan for all tutees, to find the way of learning and studying that works the best for them.
                 </p>
               </div>
             </div>

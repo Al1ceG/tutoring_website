@@ -6,9 +6,6 @@ export const Footer = () => {
           <p className="text-lg font-semibold mb-2">
             Stuart Graham Tutoring
           </p>
-          <p className="text-sm text-primary-foreground/80">
-            © {new Date().getFullYear()} All rights reserved
-          </p>
         </div>
       </div>
     </footer>

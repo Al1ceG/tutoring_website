@@ -5,8 +5,7 @@ import heroImage from "@/assets/hero-chemistry-professional.jpg";
 
 const navItems = [
   { label: "About", href: "#about" },
-  { label: "Teaching", href: "#teaching-style" },
-  { label: "Qualifications", href: "#qualifications" },
+  { label: "Experience", href: "#experience" },
   { label: "Testimonials", href: "#testimonials" },
 ];
 

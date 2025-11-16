@@ -6,27 +6,27 @@ const contactDetails = [
   {
     icon: Mail,
     label: "Email",
-    value: "stuartmckenziegraham@gmail.com",
+    value: "stuartgrahamtutoring@gmail.com",
     link: "mailto:[stuartmckenziegraham@gmail.com]",
   },
-  {
-    icon: Phone,
-    label: "Phone",
-    value: "07590 415 148",
-    link: "tel:[+1XXXXXXXXXX]",
-  },
+  // {
+  //   icon: Phone,
+  //   label: "Phone",
+  //   value: "---",
+  //   link: null,
+  // },
   {
     icon: MapPin,
     label: "Location",
-    value: "Hove",
+    value: "Brighton & Hove",
     link: null,
   },
-  {
-    icon: Clock,
-    label: "Availability",
-    value: "[Days/Times Available]",
-    link: null,
-  },
+  // {
+  //   icon: Clock,
+  //   label: "Availability",
+  //   value: "Weekdays and weekends",
+  //   link: null,
+  // },
 ];
 
 export const ContactSection = () => {

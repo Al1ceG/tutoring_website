@@ -3,14 +3,14 @@ import { Quote } from "lucide-react";
 
 const testimonials = [
   {
-    quote: "[Add testimonial from a student or parent here. Include specific results or improvements they experienced.]",
-    author: "[Student/Parent Name]",
-    role: "[Grade Level or Exam Type]",
+    quote: "Our daughter disengaged from GCSE science subjects during school, struggled to keep up & her mock exam grades were disappointing 4’s. She began 1:1 tutoring sessions with Stuart and instantly showed real enthusiasm & a renewed understanding of the sciences. Stuart's professionalism, patience, expertise, support and dedication really is exceptional and it is down to his considered & thoughtful tutoring that our daughter started to believe in her abilities. He made learning fun, went at her pace, motivated and inspired her to put the work in & be determined to do well. She walked away with 9\’s in her final exams. 1:1 tutoring with Stuart was without a doubt a game changer and a real asset during exams. He comes highly recommended",
+    author: "Mother, Hove",
+    role: "Brighton College GCSE Pupil",
   },
   {
-    quote: "[Add another testimonial highlighting a different aspect of your tutoring, such as teaching style or subject mastery.]",
-    author: "[Student/Parent Name]",
-    role: "[Grade Level or Exam Type]",
+    quote: "Stuart was the most fantastic & brilliant chemistry tutor for my son. Stuart was enthusiastic, interested and absolutely got him in the best place before his A Level.  He instilled confidence and an even deeper love of the subject for him.  Z was totally comfortable during the in person sessions and was always encouraged to ask or speak up whenever he didnt understand anything big or small. It was a relaxed & productive environment. Online questions were set as homework with Z encouraged to msg with any questions between sessions. We were thrilled with his final A Level result it was worth every penny.  Would HIGHLY recommend . Thank you Stuart.",
+    author: "Mother, Hove",
+    role: "Brighton College A Level Pupil",
   },
   {
     quote: "[Add a third testimonial focusing on outcomes, such as improved grades, exam success, or increased confidence.]",
@@ -30,7 +30,7 @@ export const TestimonialsSection = () => {
       <div className="container mx-auto px-4">
         <div className="max-w-6xl mx-auto">
           <h2 className="text-4xl md:text-5xl font-bold text-center mb-4 text-foreground">
-            Student Success Stories
+            Testimonials
           </h2>
           <p className="text-xl text-center text-muted-foreground mb-12">
             Hear from students and parents about their experience and academic outcomes
