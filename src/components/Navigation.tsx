@@ -22,7 +22,11 @@ export const Navigation = () => {
   const scrollToSection = (href: string) => {
     setIsMobileMenuOpen(false);
     const element = document.querySelector(href);
-    element?.scrollIntoView({ behavior: "smooth" });
+    if (element) {
+      const yOffset = -112; // height of navbar (h-28 = 28 * 4px = 112px)
+      const y = element.getBoundingClientRect().top + window.pageYOffset + yOffset;
+      window.scrollTo({ top: y, behavior: "smooth" });
+    }
   };
 
   return (
