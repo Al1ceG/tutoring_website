@@ -16,8 +16,4 @@ export default defineConfig(({ mode }) => ({
       "@": path.resolve(__dirname, "./src"),
     },
   },
-  "outDir": "dist",
-  "rollupOptions": {
-    "input": "/tutoring_website/index.html"
-  },
 }));
