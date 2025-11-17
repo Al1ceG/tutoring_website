@@ -8,8 +8,7 @@ export default defineConfig(({ mode }) => ({
   base: '/tutoring_website/',
   server: {
     host: "::",
-    port: 8080,
-    open: true
+    port: 8080
   },
   plugins: [react(), mode === "development" && componentTagger()].filter(Boolean),
   resolve: {
