@@ -13,9 +13,9 @@ const testimonials = [
     role: "Brighton College A Level Pupil",
   },
   {
-    quote: "[Add a third testimonial focusing on outcomes, such as improved grades, exam success, or increased confidence.]",
-    author: "[Student/Parent Name]",
-    role: "[Grade Level or Exam Type]",
+    quote: "My daughter lacked confidence and enthusiasm for GCSE Combined Science, and we were really worried about how she would cope with the exams. Stuart was absolutely brilliant at igniting her interest and helping her truly understand the subject. He was incredibly generous with his knowledge and his time, always going the extra mile to make sure she felt supported. She went from really not enjoying science—and failing her mocks—to feeling positive, engaged, and genuinely excited about the subject. Thanks to Stuart’s guidance, she passed her GCSEs with flying colours. Stuart is one of the best tutors you could hope for. We highly recommend him",
+    author: "Mother, Brighton",
+    role: "Roedean GCSE Pupil",
   },
   {
     quote: "[Add a fourth testimonial that showcases your dedication, patience, or unique approach to teaching chemistry.]",
