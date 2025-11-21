@@ -5,8 +5,8 @@ const experience = [
     icon: GraduationCap,
     title: "Classroom Teaching",
     items: [
-      "Over a decade of teaching experience at Hurstpierpoint College, including two years as Head of Chemistry.",
-      "Redesigning the Chemistry curriculum, improving the school's value add to the top 3% of the country."
+      "Over a decade of teaching experience at a leading Sussex private school, including two years as Head of Chemistry.",
+      "Both online and in person classroom teaching"
     ],
   },
   {
